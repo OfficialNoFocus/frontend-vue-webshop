@@ -1,9 +1,12 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
+<div>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous">
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/Create">Create</router-link>
+    </div>
   <router-view/>
+</div>
 </template>
 
 <style>
